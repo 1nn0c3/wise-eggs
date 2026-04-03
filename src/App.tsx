@@ -58,9 +58,7 @@ export default function App() {
             className="flex items-center gap-3 cursor-pointer"
             onClick={() => setCurrentPage('home')}
           >
-            <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center border-2 border-farm-gold">
-              <Egg className="w-6 h-6 text-farm-gold" />
-            </div>
+            <img src="/logo.jpeg" alt="Wise Eggs Logo" className="w-14 h-14 object-contain rounded-xl border border-farm-gold/20 bg-white p-1 shadow-inner" />
             <span className="text-xl font-serif font-bold text-white tracking-tight">WISE EGGS</span>
           </div>
 
@@ -445,9 +443,7 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
             <div className="col-span-1 md:col-span-2 space-y-6">
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center border-2 border-farm-gold">
-                  <Egg className="w-8 h-8 text-farm-gold" />
-                </div>
+                <img src="/logo.jpeg" alt="Wise Eggs Logo" className="w-16 h-16 object-contain rounded-2xl border border-farm-gold/20 bg-white p-1" />
                 <span className="text-2xl font-serif font-bold text-white tracking-tight">WISE EGGS</span>
               </div>
               <p className="text-farm-cream/60 max-w-md leading-relaxed">
